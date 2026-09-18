@@ -1,0 +1,32 @@
+/* Documentation site custom styles. */
+
+:root {
+  --sl-font: 'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif;
+}
+
+.origin-badge {
+  display: inline-block;
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding: 0.15rem 0.6rem;
+  border-radius: 999px;
+  border: 1px solid var(--sl-color-gray-5);
+  background: var(--sl-color-gray-6);
+  margin-right: 0.4rem;
+  white-space: nowrap;
+}
+
+.origin-vector {
+  border-color: var(--sl-color-blue);
+  color: var(--sl-color-blue-high, var(--sl-color-blue));
+}
+
+.origin-custom {
+  border-color: var(--sl-color-green);
+  color: var(--sl-color-green-high, var(--sl-color-green));
+}
+
+.origin-third-party {
+  border-color: var(--sl-color-orange);
+  color: var(--sl-color-orange-high, var(--sl-color-orange));
+}
